@@ -26,4 +26,5 @@ class Order:
             user=data.get('user'),
             products=data.get('products'),
             order_id=data.get('order_id')
+            
         )

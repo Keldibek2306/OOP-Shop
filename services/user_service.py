@@ -58,3 +58,10 @@ class UserService:
             print("Siz muvaffaqiyatli kirdingiz.")
         else:
             print("Bunda user mavjud emas.")
+            self.logged_user = None
+            print("Email yoki parol xato kiritildi.")
+    
+    def get_logged_user(self) -> User | None:
+        return self.logged_user
+        self.logged_user = None
+        print("Siz tizimdan chiqdingiz.")

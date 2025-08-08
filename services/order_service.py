@@ -57,3 +57,5 @@ class OrderService:
             print(f"- {product.name}: {product.price} so'm")
             total += product.price
         print(f"Jami: {total} so'm\n")
+        print("=== CHEK TAYYOR ===")
+

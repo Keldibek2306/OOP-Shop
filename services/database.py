@@ -37,3 +37,4 @@ class Database:
     def create_order(self, order):
         self.data["orders"].append(order)
         self.save_data()
+        print("Chek muvaffaqiyatli chop etildi.")    

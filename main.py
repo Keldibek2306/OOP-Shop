@@ -36,5 +36,7 @@ def main() -> None:
         else:
             print("Siz xato menu tanladigniz.")
 
+
+
 if __name__ == "__main__":
     main()
